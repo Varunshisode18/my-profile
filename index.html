@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    
+<style>
+#heading{
+  color: blue;
+  font-style: oblique b;
+}
+.abc{
+  color: red;
+  font-style: oblique;
+}
+
+</style>
+
   </head>
   <body>
     <header>
@@ -24,7 +37,7 @@
             d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492z"
           />
         </svg>
-        : Varun Shisode. &nbsp;&nbsp;&nbsp;&nbsp;
+        : <span> Varun Shisode </span>&nbsp;&nbsp;&nbsp;&nbsp;
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +69,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
           <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
           <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z"/>
-        </svg> <a href="assets/New Resume.pdf" download="">Download Resume</a>
+        </svg> <a href="assets/New Resume.pdf" download="" id="resume">Download Resume</a>
       </p>
       
     </header>
@@ -74,36 +87,38 @@
     </nav>
 
     <section id="home">
-      <h2>Professional Summary</h2>
+      <h2 id="heading">Professional Summary</h2>
       <ul>
-        <li>
+        <li >
           Having 1 years of experience in developing Single paga Web
           Applications using Angular8, HTML5, CSS3, Bootstrap 5, JavaScript,
           TypeScript
         </li>
-        <li>
+        <li class="abc">
           Experience on working with version control system - GIT and GitHub
+        </li>
+        <li class="abc">
           Experience working with JIRA for user stories and bug tracking
         </li>
-        <li>
+        <li >
           Strong Debugging & Troubleshooting code experience using Chrome
           Developer Tool
         </li>
 
-        <li>Working exposure on ID's like VS Code and Notepad++</li>
+        <li class="abc">Working exposure on ID's like VS Code and Notepad++</li>
         <li>Good working experience under Agile methodologies environment</li>
         <li>
           Experience in using Chrome Developer Tool for debugging and
           Troubleshooting the code
         </li>
         <li>Knowledge of NodeJS</li>
-        <li>Ability to work with people at all levels in the program</li>
+        <li id="heading">Ability to work with people at all levels in the program</li>
       </ul>
       
     </section>
     <hr />
-    <section id="techstack">
-      <h2> Technology Stack is</h2>
+    <section>
+      <h2 class="Heading"> Technology Stack is</h2>
       
       <table border="4">
         <thead>
@@ -139,8 +154,8 @@
 
     </section>
     <hr />
-    <section id="project">
-      <h2>Projects Details</h2>
+    <section>
+      <h2 >Projects Details</h2>
       
    <p> <b>Name :</b> <u>Student Management</u> <br> </p>
    <P> <b>Environment:</b> Angular 8, TypeScript,JavaScript,HTML5,CSS,Bootstrap,GitHub,Desktop GitHub,Agile,JIRA.
@@ -216,13 +231,13 @@
       </table>
     </section>
     <hr />
-    <section id="personal details">
-      <h2>Personal Details</h2>
+    <section>
+      <h2 class="abc">Personal Details</h2>
       <a href="personalDetails.html" target="_blank"></a>
     </section>
     <hr />
     <section id="other">
-      <h2>Other</h2>
+      <h2 class="abc">Other</h2>
       <a href="other.html" target="_blank"></a>
     </section>
 <hr>
