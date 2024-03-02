@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Contacts</title>
-
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-      a{
-        margin-right: 20px;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
 </head>
-<body>
-    <footer>
-    <h2>Contacts : </h2>
+<style>
+  lable , button{
     
-        
-    <a href="https://www.instagram.com/">
-    <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+    
+  }
+input[type = "text"],input[type = "email"]{
+  border: 3px red solid;
+}
+</style>
+<body>
+  <form action="">
 
-      
-    <a href="https://www.facebook.com/">
-    <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+    <table>
 
-     
-      
-    <a href="https://www.linkedin.com/">
-    <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+      <tbody>
+        <tr>
+          <td><label for="">Name : </label></td>
+          <td><input type="text"></td>
+        </tr>
 
-      
-</footer>
+        <tr>
+          <td><label for="">Email : </label></td>
+          <td><input type="email"></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
 </body>
 </html>

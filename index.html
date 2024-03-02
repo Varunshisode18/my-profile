@@ -29,6 +29,10 @@ a{
 }
 #v{
   text-transform: uppercase;
+  font-size: 1rem;
+  margin-left: 10px;
+  padding: 5px;
+  
 }
 .n{
   color: blue;
@@ -44,10 +48,28 @@ color: chocolate;
   color: blueviolet;
 }
 tr,th ,td, table{
+  border-collapse: collapse;
   border: 2px solid red;
   padding: 5px;
+  
+}
+#experience  {
+  list-style: circle;
+  padding: 10px;
+  margin: 10px;
+  
+  
+
+
 }
 
+#role {
+  
+ list-style: lower-roman;
+padding: 10px;
+margin: 50px;
+
+}
 
 
 </style>
@@ -131,6 +153,7 @@ tr,th ,td, table{
 
     <section id="home">
       <h2 class="headingbackground">Professional Summary</h2>
+      <span id="experience">
       <ul>
         <li >
           Having 1 years of experience in developing Single paga Web
@@ -157,6 +180,7 @@ tr,th ,td, table{
         <li>Knowledge of NodeJS</li>
         <li id="a">Ability to work with people at all levels in the program</li>
       </ul>
+    </span>
       
     </section>
     <hr />
@@ -211,7 +235,9 @@ tr,th ,td, table{
   </p>
 
   <p><b>Roles and Responsibilities</b></p>
-  <ul>
+  
+  <ol >
+    <span id="roles">
     <li>Deigned and implement and user interface using HTML 5 and CSS</li>
     <li>Work closely with backend developers for code integration</li>
     <li>Identifying the troubleshooting issue with frontend code</li>
@@ -219,7 +245,10 @@ tr,th ,td, table{
     <li>Used JIRA for bug tracking</li>
     <li>Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings,sprint showcase and sprint retrospective</li>
     <li>Involved in fixing technical issues</li>
-  </ul>
+  </span>
+
+  </ol>
+
 
  </section>
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+
+    <style>
+        label,button{
+            font-weight: bold ;
+        
+        }
+    input[type="text"],input[type="email"],input[type="textarea"]{
+        border: 2px solid orange;
+        padding: 3px;
+        width: 250px;
+        text-transform: capitalize;
+        border-radius: 8px;
+        color: cadetblue;
+    
+    }
+
+    textarea{
+        border-radius: 7px;
+        
+        color: cadetblue;
+        border: 2px solid orange;
+
+
+    }
+ button:hover{
+ color: blue;
+ border-radius: 7px;
+ border: 2spx solid blue;
+ }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Contact Me</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="">Enter the name : </label></td>
+                    <td><input type="text" name="" id="" autofocus></td>
+                </tr>
+                <tr>
+                    <td><label for="">Enter the Mail : </label></td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+               <tr>
+                <td><label for="">City : </label></td>
+                <td><input type="text"></td>
+               </tr>
+                <tr>
+                    <td><label for="">Question : </label></td>
+                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                
+                    <tr>
+                        <td><button type="Submit">Submit</button></td>
+                        <td><button type="Reset">Reset</button></td>
+                    </tr>                
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

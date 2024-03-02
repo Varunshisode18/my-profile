@@ -10,6 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <style>
+
+
   .right{
     padding-right:  50px;
     font-family: "Roboto", sans-serif;
@@ -20,22 +22,58 @@
     text-decoration: none;
 
   }
-  .main{
-    
-    font-family: "Roboto", sans-serif;
+ 
+  .main p{
+   font-family: "Poppins", sans-serif;
+
 
   }
 
   .remaning{
     font-family: "Poppins", sans-serif;
     
+    
 }
-table,tr,td,th{
+table,tr,th,td{
+  border: 2px solid orange;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 20px;
+
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  
+}
+#listsummary li{
+  list-style-type: none;
+ 
+  color: blue;
+  padding: 5px;
+  width: 1000px;
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+  background-color: wheat
+  }
+
+  #listsummary li::marker{
+    content: "✍️";
+
+
+  }
+#roles li{
+  list-style-type: none;
+  
   
   padding: 5px;
-  border: 2px orange solid;
+  margin: 5px;
+  width: 1000px;
+  font-family: "Poppins", sans-serif;
+  background-color: wheat;
+
+
 }
-    
   
 </style>
 
@@ -84,9 +122,9 @@ table,tr,td,th{
 
     <section class="main">
       <h2>Professional Summary</h2>
-      <ul>
+      <ul id="listsummary">
         <li >
-          Having 1 years of experience in developing Single paga Web
+          Having 1 years of experience in developing Single page Web
           Applications using HTML5, CSS3, Bootstrap 5, JavaScript,
           TypeScript 
         </li>
@@ -164,7 +202,7 @@ table,tr,td,th{
   </p>
 
   <p><b>Roles and Responsibilities</b></p>
-  <ul>
+  <ol id="roles">
     <li>Deigned and implement and user interface using HTML 5 and CSS</li>
     <li>Work closely with backend developers for code integration</li>
     <li>Identifying the troubleshooting issue with frontend code</li>
@@ -172,7 +210,7 @@ table,tr,td,th{
     <li>Used JIRA for bug tracking</li>
     <li>Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings,sprint showcase and sprint retrospective</li>
     <li>Involved in fixing technical issues</li>
-  </ul>
+  </ol>
 
  </section>
 
