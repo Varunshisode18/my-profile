@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    border: 2px solid red;
+    background-color: rgb(217, 215, 209);
+
+}
+
+#message{
+    position: fixed;
+    bottom: 20px;
+    right: 200px;
+
+}
+
+#heading i{
+    padding-left: 40px;
+    padding-top: 20px;
+    
+    
+}
+#heading{
+font-size: larger;
+font-weight: bold;
+left: 500px;
+margin-bottom: 100px;
+
+background-color: aqua;
+position: fixed;
+}
+
+#navigation a{
+    padding-left: 40px;
+    text-decoration: none;
+    
+}
+#navigation{
+    margin-top: 70px;
+    font-size: larger;
+    font-weight: bold;
+  
+    position: relative;
+    top: 30px;
+    right: 300px;
+
+    position: fixed;
+    background-color: burlywood;
+    padding-top: 20PX;
+}
+#career{
+    font-family: "Roboto", sans-serif;
+
+    padding-top: 150px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#home h2{
+    text-align: center;
+    
+}
+.list li{
+    list-style: none;
+    padding-left: 500px;
+    list-style: circle inside ;
+    font-family: "Roboto", sans-serif;
+
+}
+#techstack h2{
+    text-align: center;
+}
+tr,th ,td, table{
+    border-collapse: collapse;
+    border: 2px solid red;
+    margin-left: 600px;
+    padding: 5px
+    
+}
+#project h2 , p{
+    text-align: center;
+}
+
+#role li{
+    margin-left: 400px;
+}
+
+#education{
+    text-align: center;
+}
+
+#personaldetails{
+    text-align: center;
+}
+#other{
+    text-align: center;
+}
+
+#copy{
+    text-align: center;
+}
+p{
+    font-size: larger;
+    
+}
